@@ -5,23 +5,19 @@ import Inicio from '../../views/contents/Inicio'
 import Detalhes from '../../views/contents/Detalhes'
 import Sobre from '../../views/contents/Sobre'
 
-
 const Content = props => (
     <main className="Content">
        <Switch>
            <Route exact path="/">
                <Inicio />
            </Route>
-
            <Route path="/detalhes">
-           
-               <Detalhes />
+                   <Detalhes />
                </Route>
                <Route path="/sobre">
                    <Sobre />
                </Route>
-       </Switch>
+               </Switch>
     </main>
 )
-
 export default Content
