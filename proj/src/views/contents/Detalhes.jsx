@@ -1,15 +1,19 @@
 import React from "react"
+import './estilo.css'
 
 const Detalhes = props => (
-    <div>
-        <h1>Detalhes</h1>
-        
-        <h2>Um jovem programador é atormentado por estranhos pesadelos nos quais sempre está 
-            conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a 
-            levantar dúvidas sobre a realidade. E quando encontra os misteriosos Morpheus e Trinity, ele descobre que é vítima do
-             Matrix, um sistema inteligente e artificial que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto 
-             usa os cérebros e corpos dos indivíduos para produzir energia.</h2>
-    </div>
+    <main className="Detalhes">
+        <div>
+            <h1>Detalhes</h1>
+            
+            <br/><br/>
+            <h2>Lançado em 2008 e é usado desde então para que desenvolvedores possam hospedar seus projetos.</h2> 
+                <h2>O GitHub costuma ser o preferido entre os seus utilizadores por oferecer também alguns recursos
+                de redes sociais, já que é possível seguir projetos de outros desenvolvedores e ainda comentar sobre
+                todos eles. O GitHub, além de tudo, possui um recurso bastante interessante, o Git, sendo possível 
+                compartilhar um bloco de código.</h2>
+        </div>
+    </main>
 
 )
 

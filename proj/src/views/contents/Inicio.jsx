@@ -1,11 +1,16 @@
 import React from "react"
+import Logo from "../contents/imagens/githubinho.png"
+import './estilo.css'
 
 const Inicio = props => (
-    <div>
-        <h1>Projeto PWII</h1>
-        <br />
-        <h2>Matrix</h2> 
-    </div>
+    <main className="Inicio">
+        <div>
+            <h1>Projeto PWI</h1>
+            <br />
+            <h2>O GitHub</h2> 
+            <img src={Logo} />
+        </div>
+    </main>
 )
 
 export default Inicio
