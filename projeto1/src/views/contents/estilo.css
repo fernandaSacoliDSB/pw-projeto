@@ -1,0 +1,29 @@
+.Inicio 
+{
+    margin-left: 200px;
+    color: #101010;
+    justify-content: center;
+}
+
+.Inicio img
+{
+    height: 400px;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.Detalhes h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Detalhes h2
+{
+    text-align: justify;
+}
+
+.Sobre h1
+{
+    text-align: center;
+}
