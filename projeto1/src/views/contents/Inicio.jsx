@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../contents/imagens/githubinho.png"
+import Logo from "./imagens/githubinho.png"
 import './estilo.css'
 
 const Inicio = props => (
